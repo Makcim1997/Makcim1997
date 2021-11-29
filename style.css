@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*================ Font ==================
+font-family: 'Montserrat', sans-serif; 
+ font-family: 'Playfair Display', serif;
+=========================================*/
+
+
+/*====== Header ======*/
+.section-header {
+  height: 46.9vw;
+  background: url(assets/maks.jpg) no-repeat 50% 50% / cover;
+  color: #FFFFFF;
+  padding: 30px 0px 150px;
+}
+.wrapper-content{
+  width: 1110px;
+}
+.connection{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500; 
+  font-size: 13px;
+  line-height: 19,5px;
+  font-style:normal;
+  font-family: 'Montserrat';
+  margin-bottom: 20px;
+}
+
+ li, a{
+  list-style: none;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 21px; 
+}
+
+.header-list {
+  border: 1px solid #FFFFFF;
+  border-right: 0px;
+  border-left: 0px;
+  display: flex;
+}
+.list{
+  padding: 10px 0px;
+  width: 276.75px;
+  border-left: 1px solid #ffffff;
+  text-align: center;
+}
+.list:first-child{
+  border: none;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  
+}
+
+.button-1{
+  margin: 0 15px ;
+  background: #99862A;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family:'Montserrat';
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.button-1:active {
+  background: #7b6807;
+}
+/*======== Header ======*/
+
+/*======= promo =======*/
+
+.section-promo{
+  background: #282828;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-container{
+  text-align: center;
+  width: 1110px;
+  height: 656px;
+  border: 1px solid #ffffff;
+  color: #ffffff; 
+  padding: 60px 187px;
+  
+}
+.heading-promo{
+  padding-bottom: 40px;
+  font-family: 'Playfair Display';
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.border-promo{
+  width: 160px;
+  border: solid 1px;
+  margin: 0px 0px 40px 288px;
+
+}
+
+.promo-text{
+  padding-bottom: 50px ;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 150%;
+}
+
+/*======= promo ========*/
+
+/*======= history =======*/
+
+.section-history{
+padding: 80px 0px ;
+background: #E6E3C4;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Montserrat';
+font-size: 14px;
+
+}
+
+.history-container{
+  display: flex;
+  width: 1110px;
+  border: solid 1px #998431;
+  border-left: none;
+  border-right: none;
+  padding: 60px 0px;
+  color: #282828;
+}
+
+.new-collection{
+  padding-bottom: 30px;
+  font-size: 16px;
+  line-height: 150%;
+}
+.history-heading {
+  padding-bottom: 30px;
+  font-family: 'Playfair Display';
+  font-size: 36px;
+}
+
+.history-border{
+  width: 160px;
+  border: solid 1px ;
+  margin-bottom: 30px;
+} 
+
+.history-text{
+  line-height: 150%;
+  padding-bottom: 30px;
+}
+.collection-history-wine{
+padding-bottom: 30px;
+}
+.collection-history{
+  line-height: 150%;
+  display: flex;  
+}
+.year{
+  border-bottom: 1px solid #282828;
+  padding: 31px 24px 26px 19px;
+}
+.year-1 {
+  border-bottom: none;
+}
+.wine{
+  border: 1px solid #282828;
+  border-top: none;
+  border-right: none;
+  padding: 10px 37px 15px 30px;
+}
+.wine-1{
+  border-bottom: none;
+}
+.name{
+  font-family:'Playfair Display';
+  font-size: 18px;
+  line-height: 150%;
+}
+.img-history{
+  margin-left: 125px; 
+}
+.img-history-2{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.history-button-2{
+  background: #998431;
+  padding: 15px 30px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 5%;
+  text-transform: uppercase;
+  border: none; 
+  cursor: pointer;
+}
+.history-button-2:active{
+  background: #c9a410;
+}
+
+/*======= history =======*/
+
+/*====== recording =====*/
+
+.section-recording {
+  background: #282828;
+  padding: 129px 0px 100px 0px;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+.recording-container{
+  border: solid 1px #ffffff;
+  padding: 65px 285px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.recording-header{
+  position: absolute;
+  top: 2945px;
+  background-color: #282828;
+}
+.heading-record{
+  padding: 10px 50px;
+  font-family: 'Playfair Display';
+  font-size: 36px;
+}
+
+.img-recording{
+  position: absolute;
+  left: 430px;
+  top: 2915px;
+}
+.img-recording-1{
+  position: absolute;
+  top: 2915px;
+  left: 1355px;
+}
+
+.border-recording{
+  width:118px;
+  border:solid 1px #ffffff;
+  margin-bottom: 40px;
+}
+.text-recording{
+  width: 540px;
+  padding-bottom: 80px;
+  text-align: center;
+  line-height: 150%;
+}
+.input-record{
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 40px;
+  background: #282828;
+  width: 255px;
+  padding-bottom: 10px;
+
+}
+input:not(:first-of-type){
+  margin-left: 25px;
+}
+
+.input-recording{
+  border: none;
+  width:540px ;
+  border-bottom: 1px solid #ffffff;
+  background-color: #282828;
+  margin-bottom: 55px;
+  padding-bottom: 10px;
+}
+.input-record::placeholder{
+  color:#FFFFFF;
+}
+.Button{
+  width: 540px;
+  border: 1px solid #ffffff;
+  background-color: #282828;
+  cursor: pointer;
+  padding: 15px;  
+}
+.link-record{
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/*====== recording =======*/
+
+
+/*====== footer ======*/
+
+.section-footer{
+  background: #998431;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.footer-list-1{
+  display: flex;
+  padding: 10px 0px;
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+}
+.list-2{
+  width: 158.57px;
+  text-align: center;
+}
+
+.footer-list-2{
+  display: flex;
+  border-bottom: 1px solid #ffffff;
+  padding: 0px 0px;  
+}
+.list-3{
+  width: 277.5px;
+  border-right: 1px solid #ffffff;
+  padding: 10px 0px;
+  text-align: center;
+
+}
+.list-3:last-of-type{
+  border-right: none;
+}
+.footer-list-2{
+  font-weight: 600;
+  text-transform: uppercase;
+}
+i{
+  padding: 0px 20px;
+}
+
+/*====== footer =======*/
+
