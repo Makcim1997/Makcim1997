@@ -27,10 +27,16 @@ font-family: 'Montserrat', sans-serif;
   justify-content: center;
 }
 .wrapper-container{
+  max-width: 1110px;
+  margin: 0 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  flex-grow: 1;
+}
+.wrapper-content{
+  width: 100%;
 }
 .connection{
   display: flex;
@@ -60,10 +66,11 @@ font-family: 'Montserrat', sans-serif;
   display: flex;
 }
 .list{
-  padding: 10px 0px;
-  width: 276.75px;
-  border-left: 1px solid #ffffff;
+  width: 100%;
   text-align: center;
+  padding: 10px 0px;
+  border-left: 1px solid #ffffff;
+
 }
 .list:first-child{
   border: none;
@@ -94,18 +101,18 @@ font-family: 'Montserrat', sans-serif;
   background: #282828;
   padding: 100px 0px;
   display: flex;
-  flex-direction:column;
-  align-items: center;
   justify-content: center;
 }
 
 .section-container{
   text-align: center;
   max-width: 1110px;
+  margin: 0 15px;
   border: 1px solid #ffffff;
   color: #ffffff; 
   padding: 60px 187px;
 }
+
 .heading-promo{
   padding-bottom: 40px;
   font-family: 'Playfair Display';
@@ -114,14 +121,15 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .border-promo{
-  border-bottom: solid 1px;
-  margin: 0px 288px 40px 288px;
+  border-bottom: 1px solid #ffffff;
+  max-width: 160px;
+  margin: 0 auto 40px;
+  flex-grow: 1;
 }
 
 .promo-text{
   padding-bottom: 50px ;
   font-family: 'Montserrat';
-  font-size: 16px;
   line-height: 150%;
 }
 
@@ -139,15 +147,20 @@ justify-content: center;
 }
 
 .history-container{
-  display: flex;
   max-width: 1110px;
   border: solid 1px #998431;
   border-left: none;
   border-right: none;
   padding: 60px 0px;
+  margin: 0px 15px;
+  flex-grow: 1;
+}
+.history-content{
+  display: flex;
+  justify-content: space-between;
 }
 .history-block-1{
-margin-right: 125px;
+max-width: 445px;
 }
 .new-collection{
   padding-bottom: 30px;
@@ -198,11 +211,7 @@ padding-bottom: 30px;
   font-size: 18px;
   line-height: 150%;
 }
-.block{
-  display: flex;
-  flex-direction: column;
-  
-}
+
 .img-block-2{
 display: flex;
 justify-content: space-between;
@@ -229,27 +238,34 @@ justify-content: space-between;
 
 /*====== recording =====*/
 
-.section-recording {
+.section-recording {  
+  display: flex;
+  justify-content: center;
   background: #282828;
   padding: 129px 0px 100px 0px;
   color: #ffffff;
   font-family: 'Montserrat'; 
-  overflow: hidden;
 }
+
 .recording-container{
   max-width: 1110px;
-  margin: 0 auto;
+  margin: 0 30px;;
   border: solid 1px #ffffff;
-  padding: 65px 285px;
+  padding: 65px 0px;
   display: flex;
   flex-direction: column;
   align-items: center; 
-  position: relative; 
+  position: relative;
+  flex-grow: 1; 
+}
+.recording-content{
+  max-width: 540px;
 }
 
 .recording-header{
   position: absolute;
   top: -39px;
+  left: 325px;
   background-color: #282828;
 }
 .heading-record{
@@ -270,9 +286,9 @@ justify-content: space-between;
 }
 
 .border-recording{
-  width:118px;
+  max-width:118px;
+  margin: 0 auto 40px;
   border-bottom: 1px solid #ffffff;
-  margin-bottom: 40px;
 }
 .text-recording{
   padding-bottom: 80px;
@@ -288,11 +304,11 @@ justify-content: space-between;
   border-bottom: 1px solid #ffffff;
   margin-bottom: 40px;
   background: #282828;
-  padding: 10px 96px 10px 0px;
-  
+  padding: 10px 0px;
+  flex-grow: 1;
   color:#FFFFFF;
-
 }
+
 input:not(:first-of-type){
   margin-left: 25px;
 }
@@ -302,7 +318,7 @@ input:not(:first-of-type){
   border-bottom: 1px solid #FFFFFF;
   background-color: #282828;
   margin-bottom: 55px;
-  padding: 10px 379px 10px 0px;
+  padding:10px 0px;
   color: #FFFFFF;
 }
 .input-record::placeholder{
@@ -315,7 +331,7 @@ input:hover, :focus{
   border: 1px solid #ffffff;
   background-color: #282828;
   cursor: pointer;
-  padding: 15px 207px;
+  padding: 15px 0px;
 }
 .link-record{
   font-family: 'Montserrat';
@@ -323,6 +339,11 @@ input:hover, :focus{
   font-weight: 500;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+
+.block-record{
+  display: flex;
+  flex-direction: column;
 }
 
 /*====== recording =======*/
@@ -335,7 +356,12 @@ input:hover, :focus{
   padding: 50px 0px;
   display: flex;
   justify-content: center;
-  
+}
+
+.footer-container{
+  max-width: 1110px;
+  margin: 0px 15px;
+  flex-grow: 1;
 }
 
 .footer-list-1{
@@ -345,7 +371,7 @@ input:hover, :focus{
   border-top: 1px solid #ffffff;
 }
 .list-2{
-  width: 158.57px;
+  width: 100%;
   text-align: center;
 }
 
@@ -355,7 +381,7 @@ input:hover, :focus{
   padding: 0px 0px;  
 }
 .list-3{
-  width: 277.5px;
+  width: 100%;
   border-right: 1px solid #ffffff;
   padding: 10px 0px;
   text-align: center;
